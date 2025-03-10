@@ -23,20 +23,20 @@ Functionalities:
 -beginner-friendly interface 
 
 
-Project fulfils basic Component Programming concepts and other java related concepts:
--Maven Configuration
--Unit testing with JUnit
--Java types, operators and inheritance
--Jacoco
--Iterator design pattern
--Generic Programming
--Collections and Maps
--Files handling 
--Standard Java Interfaces: Serializable/Externalizable
--Exception chaining
--Custom exceptions
--Error Handling
--Standard Java Interfaces: Cloneable, Comparable/Comparator
--Strings, Resources, Internationalization and Localization
--Factory Design Pattern
--Interaction with Relational Database - Postgres
+  Project fulfils basic Component Programming concepts and other java related concepts:
+  -Maven Configuration
+  -Unit testing with JUnit
+  -Java types, operators and inheritance
+  -Jacoco
+  -Iterator design pattern
+  -Generic Programming
+  -Collections and Maps
+  -Files handling 
+  -Standard Java Interfaces: Serializable/Externalizable
+  -Exception chaining
+  -Custom exceptions
+  -Error Handling
+  -Standard Java Interfaces: Cloneable, Comparable/Comparator
+  -Strings, Resources, Internationalization and Localization
+  -Factory Design Pattern
+  -Interaction with Relational Database - Postgres
