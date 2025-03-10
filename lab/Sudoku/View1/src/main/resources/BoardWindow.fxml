@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="500.0"  xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.exampleview.BoardWindowControl">
+    <children>
+        <StackPane fx:id="stackPane" prefHeight="500.0" prefWidth="500.0">
+            <GridPane fx:id="sudokuBoardGrid" prefHeight="500.0" prefWidth="500.0" style="-fx-grid-lines-visible: true">
+                <columnConstraints>
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="55.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="55.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="55.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="55.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="55.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="55.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="55.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="55.0" />
+                    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="55.0" />
+                </columnConstraints>
+                <rowConstraints>
+                    <RowConstraints minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                    <RowConstraints minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+                </rowConstraints>
+
+
+
+            </GridPane>
+            <Pane fx:id="linePane" mouseTransparent="true"/>
+        </StackPane>
+        <SplitPane dividerPositions="0.5" layoutY="500.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="500.0">
+            <items>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                    <children>
+                        <Button fx:id="FileButton" layoutX="74.0" layoutY="36.0" mnemonicParsing="false" onAction="#onActionSaveToFileButton" text="%_btnSaveFile" />
+                        <Button fx:id="Return" layoutX="223.0" layoutY="36.0" mnemonicParsing="false" onAction="#onActionReturnButton" text="%_btnReturn" />
+                        <Button fx:id="DatabaseButton" layoutX="335.0" layoutY="36.0" mnemonicParsing="false" onAction="#onActionSaveToDatabaseButton" text="%_btnSaveDatabase" />
+                    </children>
+                </AnchorPane>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                    <children>
+                        <Button fx:id="Check" layoutX="223.0" layoutY="36.0" mnemonicParsing="false" onAction="#onActionCheckButton" text="%_btnCheck" />
+                    </children>
+                </AnchorPane>
+            </items>
+        </SplitPane>
+    </children>
+</Pane>

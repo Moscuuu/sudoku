@@ -1,0 +1,20 @@
+sie 05, 2024 9:35:23 PM org.exampleview.App main
+INFO: Aplikacja została uruchomiona
+Aug 05, 2024 9:36:05 PM org.exampleview.BoardWindowControl validateFieldInput
+INFO: Invalid value
+Aug 05, 2024 9:36:27 PM org.exampleview.BoardWindowControl validateFieldInput
+INFO: Invalid value
+Aug 05, 2024 9:36:29 PM org.exampleview.BoardWindowControl validateFieldInput
+INFO: Invalid value
+Aug 05, 2024 9:36:30 PM org.exampleview.BoardWindowControl validateFieldInput
+INFO: Invalid value
+Aug 05, 2024 9:36:30 PM org.exampleview.BoardWindowControl validateFieldInput
+INFO: Invalid value
+Aug 05, 2024 9:36:30 PM org.exampleview.BoardWindowControl validateFieldInput
+INFO: Invalid value
+Aug 05, 2024 9:36:31 PM org.exampleview.BoardWindowControl validateFieldInput
+INFO: Invalid value
+Aug 05, 2024 9:38:11 PM org.exampleview.BoardWindowControl onActionSaveToFileButton
+WARNING: File has not been chosen
+Aug 05, 2024 9:38:22 PM org.exampleview.BoardWindowControl onActionCheckButton
+INFO: You Lost
